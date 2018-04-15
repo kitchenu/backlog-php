@@ -1,0 +1,24 @@
+{
+    "name": "kitchenu/backlog-php",
+    "type": "library",
+    "description": "Backlog API client library",
+    "keywords": ["backlog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kitchenu"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kitchenu\\Backlog\\": "src"
+        }
+    }
+}
